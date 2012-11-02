@@ -1,0 +1,297 @@
+PCBNEW-BOARD Version 1 date Fri 02 Nov 2012 01:04:59 PM COT
+
+# Created by Pcbnew(2012-09-18 BZR 3725)-testing
+
+$GENERAL
+encoding utf-8
+Units deci-mils
+LayerCount 2
+EnabledLayers 1FFF8001
+VisibleLayers 1FFFFFFF
+Links 0
+NoConn 0
+Di 76617 51217 78865 53465
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 1
+Nnets 1
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A3 16535 11693
+Title ""
+Date "2 nov 2012"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+Layers 2
+Layer[0] Back signal
+Layer[15] Front signal
+TrackWidth 100
+TrackClearence 100
+ZoneClearence 200
+Zone_45_Only 0
+TrackMinWidth 100
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+VisibleElements FFFFFFBF
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "This is the default net class."
+Clearance 100
+TrackWidth 100
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+$EndNCLASS
+$MODULE QFN24P
+Po 77800 52400 0 15 50940006 50940B64 ~~
+Li QFN24P
+Sc 50940B64
+AR /50940AA1/50940AF0
+Op 0 0 0
+At SMD
+T0 0 -150 200 200 0 40 N V 25 N "U1"
+T1 0 150 200 200 0 40 N I 25 N "MPU6050"
+DC -984 -984 -984 -1062 39 21
+DS -944 944 -944 -944 39 21
+DS -944 -944 944 -944 39 21
+DS 944 -944 944 944 39 21
+DS 944 944 -944 944 39 21
+$PAD
+Sh "PAD" R 473 473 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -255 255
+$EndPAD
+$PAD
+Sh "PAD" R 473 473 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -255 -255
+$EndPAD
+$PAD
+Sh "PAD" R 473 473 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 255
+$EndPAD
+$PAD
+Sh "PAD" R 473 473 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 255 -255
+$EndPAD
+$PAD
+Sh "7" R 99 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -491 767
+$EndPAD
+$PAD
+Sh "24" R 99 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -491 -767
+$EndPAD
+$PAD
+Sh "8" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 767
+$EndPAD
+$PAD
+Sh "23" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -295 -767
+$EndPAD
+$PAD
+Sh "9" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 767
+$EndPAD
+$PAD
+Sh "22" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -98 -767
+$EndPAD
+$PAD
+Sh "10" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 767
+$EndPAD
+$PAD
+Sh "21" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 98 -767
+$EndPAD
+$PAD
+Sh "11" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 767
+$EndPAD
+$PAD
+Sh "20" R 98 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 295 -767
+$EndPAD
+$PAD
+Sh "12" R 99 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 491 767
+$EndPAD
+$PAD
+Sh "19" R 99 315 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 491 -767
+$EndPAD
+$PAD
+Sh "1" R 315 99 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -767 -491
+$EndPAD
+$PAD
+Sh "18" R 315 99 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 767 -491
+$EndPAD
+$PAD
+Sh "2" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -767 -295
+$EndPAD
+$PAD
+Sh "17" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 767 -295
+$EndPAD
+$PAD
+Sh "3" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -767 -98
+$EndPAD
+$PAD
+Sh "16" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 767 -98
+$EndPAD
+$PAD
+Sh "4" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -767 98
+$EndPAD
+$PAD
+Sh "15" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 767 98
+$EndPAD
+$PAD
+Sh "5" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -767 295
+$EndPAD
+$PAD
+Sh "14" R 315 98 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 767 295
+$EndPAD
+$PAD
+Sh "6" R 315 99 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -767 491
+$EndPAD
+$PAD
+Sh "13" R 315 99 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 767 491
+$EndPAD
+$EndMODULE QFN24P
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD
