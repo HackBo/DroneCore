@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Nov 2012 06:00:55 PM COT
+EESchema Schematic File Version 2  date Sat 03 Nov 2012 06:26:30 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:ABM8G
 LIBS:mpu6050
 LIBS:stm32f100vxx
+LIBS:mpu6000
 LIBS:HackBo_DroneCore_CM4-cache
 EELAYER 25  0
 EELAYER END
