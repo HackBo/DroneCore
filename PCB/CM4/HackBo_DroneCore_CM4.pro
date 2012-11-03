@@ -1,4 +1,4 @@
-update=Fri 02 Nov 2012 01:04:43 PM COT
+update=Sat 03 Nov 2012 05:54:56 PM COT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -55,7 +55,7 @@ LibName32=mpu6050
 LibName33=stm32f100vxx
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=HackBo_DroneCore_CM4.net
 PadDrlX=320
 PadDimH=600
 PadDimV=600
@@ -85,3 +85,4 @@ LibName10=pga_sockets
 LibName11=valves
 LibName12=QFN24P
 LibName13=stdpass
+LibName14=ABM8G

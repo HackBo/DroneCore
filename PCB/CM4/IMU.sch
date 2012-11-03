@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 02 Nov 2012 01:03:51 PM COT
+EESchema Schematic File Version 2  date Sat 03 Nov 2012 06:00:55 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -32,13 +32,14 @@ LIBS:valves
 LIBS:ABM8G
 LIBS:mpu6050
 LIBS:stm32f100vxx
-EELAYER 43  0
+LIBS:HackBo_DroneCore_CM4-cache
+EELAYER 25  0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
-Date "2 nov 2012"
+Date "3 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,10 +48,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MPU6050 U1
+L MPU6050 U2
 U 1 1 50940AF0
 P 5400 3400
-F 0 "U1" H 4950 3950 60  0000 C CNB
+F 0 "U2" H 4950 3950 60  0000 C CNB
 F 1 "MPU6050" H 5400 3400 60  0000 C CNB
 F 2 "QFN24P" H 5400 3400 60  0001 C CNN
 	1    5400 3400
