@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 03 Nov 2012 10:35:30 PM COT
+EESchema Schematic File Version 2  date Sat 03 Nov 2012 10:53:34 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -50,13 +50,15 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 5300 2400 2550 1750
+S 5300 2350 1350 1500
 U 50940AA1
 F0 "IMU" 60
 F1 "IMU.sch" 60
 F2 "SDI" I L 5300 2750 60 
 F3 "SCK" I L 5300 2650 60 
 F4 "SDO" O L 5300 2850 60 
+F5 "SDA" B L 5300 3150 60 
+F6 "SCL" I L 5300 3050 60 
 $EndSheet
 $Sheet
 S 3400 2350 1600 1500
@@ -66,6 +68,8 @@ F1 "CortexM4.sch" 60
 F2 "SPI2_MOSI" O R 5000 2750 60 
 F3 "SPI2_MISO" I R 5000 2850 60 
 F4 "SPI2_SCK" O R 5000 2650 60 
+F5 "I2C1_SCL" O R 5000 3050 60 
+F6 "I2C1_SDA" B R 5000 3150 60 
 $EndSheet
 Wire Wire Line
 	5000 2650 5300 2650
@@ -73,4 +77,8 @@ Wire Wire Line
 	5000 2750 5300 2750
 Wire Wire Line
 	5000 2850 5300 2850
+Wire Wire Line
+	5000 3050 5300 3050
+Wire Wire Line
+	5000 3150 5300 3150
 $EndSCHEMATC
