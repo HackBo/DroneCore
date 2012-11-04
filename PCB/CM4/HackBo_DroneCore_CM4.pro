@@ -1,4 +1,4 @@
-update=Sat 03 Nov 2012 10:34:42 PM COT
+update=Sun 04 Nov 2012 06:51:06 PM COT
 version=1
 last_client=pcbnew
 [cvpcb]
@@ -55,12 +55,13 @@ LibName32=mpu6050
 LibName33=stm32f100vxx
 LibName34=mpu6000
 LibName35=hmc5883l
+LibName36=bmp085
 [pcbnew]
 version=1
 LastNetListRead=HackBo_DroneCore_CM4.net
-PadDrlX=320
-PadDimH=600
-PadDimV=600
+PadDrlX=0
+PadDimH=315
+PadDimV=657
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -71,7 +72,7 @@ VEgarde=39
 DrawLar=150
 EdgeLar=39
 TxtLar=120
-MSegLar=150
+MSegLar=39
 [pcbnew/libraries]
 LibDir=../modules
 LibName1=sockets
@@ -89,3 +90,4 @@ LibName12=QFN24P
 LibName13=stdpass
 LibName14=ABM8G
 LibName15=QFN16P
+LibName16=LCC8
