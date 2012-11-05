@@ -3,6 +3,10 @@ DroneCore
 HackBo Hackerspace Open Board controller for UAV 
 http://Hackbo.co 
 
+NOTICE
+=========
+Work in progress (DONT FINISHED YET !!)
+
 Hardware
 =========
 
