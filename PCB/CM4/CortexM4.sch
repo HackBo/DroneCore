@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 04 Nov 2012 06:51:49 PM COT
+EESchema Schematic File Version 2  date Sun 04 Nov 2012 07:09:00 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -42,7 +42,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
 Title ""
-Date "4 nov 2012"
+Date "5 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -84,28 +84,28 @@ F 2 "0603" H 6000 1050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND #PWR21
 U 1 1 50959F93
 P 6000 1350
-F 0 "#PWR011" H 6000 1350 30  0001 C CNN
+F 0 "#PWR21" H 6000 1350 30  0001 C CNN
 F 1 "GND" H 6000 1280 30  0001 C CNN
 	1    6000 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR012
+L +3.3V #PWR18
 U 1 1 5095A033
 P 4000 1050
-F 0 "#PWR012" H 4000 1010 30  0001 C CNN
+F 0 "#PWR18" H 4000 1010 30  0001 C CNN
 F 1 "+3.3V" H 4000 1160 30  0000 C CNN
 	1    4000 1050
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR013
+L +3.3V #PWR20
 U 1 1 5095A042
 P 6000 750
-F 0 "#PWR013" H 6000 710 30  0001 C CNN
+F 0 "#PWR20" H 6000 710 30  0001 C CNN
 F 1 "+3.3V" H 6000 860 30  0000 C CNN
 	1    6000 750 
 	1    0    0    -1  
@@ -208,10 +208,10 @@ Wire Wire Line
 Connection ~ 1250 2250
 Connection ~ 1350 2250
 $Comp
-L GND #PWR014
+L GND #PWR15
 U 1 1 5095A327
 P 1250 2700
-F 0 "#PWR014" H 1250 2700 30  0001 C CNN
+F 0 "#PWR15" H 1250 2700 30  0001 C CNN
 F 1 "GND" H 1250 2630 30  0001 C CNN
 	1    1250 2700
 	1    0    0    -1  
@@ -238,11 +238,7 @@ F 2 "0603" H 7250 1050 60  0001 C CNN
 	1    7250 1050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 800  7250 850 
 Connection ~ 6850 800 
-Wire Wire Line
-	7250 1300 7250 1250
 Connection ~ 6850 1300
 Wire Wire Line
 	1750 2600 2150 2600
@@ -265,10 +261,10 @@ Wire Wire Line
 Wire Wire Line
 	2800 6100 2400 6100
 $Comp
-L GND #PWR015
+L GND #PWR19
 U 1 1 5095B7B5
 P 4100 7400
-F 0 "#PWR015" H 4100 7400 30  0001 C CNN
+F 0 "#PWR19" H 4100 7400 30  0001 C CNN
 F 1 "GND" H 4100 7330 30  0001 C CNN
 	1    4100 7400
 	1    0    0    -1  
@@ -282,10 +278,10 @@ Wire Wire Line
 Wire Wire Line
 	1650 4750 2800 4750
 $Comp
-L +3.3V #PWR016
+L +3.3V #PWR16
 U 1 1 5095EF23
 P 1850 3950
-F 0 "#PWR016" H 1850 3910 30  0001 C CNN
+F 0 "#PWR16" H 1850 3910 30  0001 C CNN
 F 1 "+3.3V" H 1850 4060 30  0000 C CNN
 	1    1850 3950
 	1    0    0    -1  
@@ -303,10 +299,10 @@ F 2 "0603" H 1850 4300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR017
+L +3.3V #PWR17
 U 1 1 5095EF45
 P 2150 3950
-F 0 "#PWR017" H 2150 3910 30  0001 C CNN
+F 0 "#PWR17" H 2150 3910 30  0001 C CNN
 F 1 "+3.3V" H 2150 4060 30  0000 C CNN
 	1    2150 3950
 	1    0    0    -1  
@@ -329,4 +325,46 @@ Connection ~ 1850 4650
 Wire Wire Line
 	2150 4550 2150 4750
 Connection ~ 2150 4750
+Wire Wire Line
+	6450 800  8150 800 
+Wire Wire Line
+	6450 1300 7700 1300
+$Comp
+L C C13
+U 1 1 509705B9
+P 7700 1050
+F 0 "C13" H 7750 1150 50  0000 L CNN
+F 1 "10uF" H 7750 950 50  0000 L CNN
+F 2 "0805" H 7700 1050 60  0001 C CNN
+	1    7700 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 800  7700 850 
+Wire Wire Line
+	7700 1300 7700 1250
+Wire Wire Line
+	6900 1300 8150 1300
+$Comp
+L C C14
+U 1 1 509705CE
+P 8150 1050
+F 0 "C14" H 8200 1150 50  0000 L CNN
+F 1 "10uF" H 8200 950 50  0000 L CNN
+F 2 "0805" H 8150 1050 60  0001 C CNN
+	1    8150 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8150 800  8150 850 
+Wire Wire Line
+	8150 1300 8150 1250
+Connection ~ 7700 800 
+Wire Wire Line
+	7250 800  7250 850 
+Connection ~ 7250 800 
+Wire Wire Line
+	7250 1300 7250 1250
+Connection ~ 7250 1300
+Connection ~ 7700 1300
 $EndSCHEMATC
