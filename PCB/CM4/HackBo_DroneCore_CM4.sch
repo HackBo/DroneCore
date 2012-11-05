@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sun 04 Nov 2012 07:09:00 PM COT
+EESchema Schematic File Version 2  date Sun 04 Nov 2012 10:48:55 PM COT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ LIBS:mpu6000
 LIBS:hmc5883l
 LIBS:bmp085
 LIBS:HackBo_DroneCore_CM4-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
