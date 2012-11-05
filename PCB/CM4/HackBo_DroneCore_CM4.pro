@@ -1,4 +1,4 @@
-update=Sun 04 Nov 2012 07:07:55 PM COT
+update=Mon 05 Nov 2012 06:43:38 AM COT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -47,9 +47,6 @@ LibName16=LCC8
 version=1
 LibDir=../components
 NetFmtName=Pcbnew
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -88,6 +85,6 @@ LibName30=valves
 LibName31=ABM8G
 LibName32=mpu6050
 LibName33=stm32f100vxx
-LibName34=mpu6000
-LibName35=hmc5883l
-LibName36=bmp085
+LibName34=hmc5883l
+LibName35=bmp085
+LibName36=mpu6000
