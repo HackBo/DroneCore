@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 05 Nov 2012 06:52:04 AM COT
+EESchema Schematic File Version 2  date Mon 05 Nov 2012 10:11:56 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,14 +35,15 @@ LIBS:stm32f100vxx
 LIBS:hmc5883l
 LIBS:bmp085
 LIBS:mpu6000
+LIBS:ap1115a
 LIBS:HackBo_DroneCore_CM4-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
-Date "5 nov 2012"
+Date "6 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -367,4 +368,36 @@ Wire Wire Line
 	7250 1300 7250 1250
 Connection ~ 7250 1300
 Connection ~ 7700 1300
+Text HLabel 2650 2650 0    60   Output ~ 0
+pwm_01
+Wire Wire Line
+	2650 2650 2800 2650
+Text HLabel 2650 2750 0    60   Output ~ 0
+pwm_02
+Wire Wire Line
+	2650 2750 2800 2750
+Text HLabel 2650 2850 0    60   Output ~ 0
+pwm_03
+Wire Wire Line
+	2650 2850 2800 2850
+Text HLabel 2650 2950 0    60   Output ~ 0
+pwm_04
+Wire Wire Line
+	2650 2950 2800 2950
+Text HLabel 2650 3050 0    60   Output ~ 0
+pwm_05
+Wire Wire Line
+	2650 3050 2800 3050
+Text HLabel 2650 3150 0    60   Output ~ 0
+pwm_06
+Wire Wire Line
+	2650 3150 2800 3150
+Text HLabel 2650 3250 0    60   Output ~ 0
+pwm_07
+Wire Wire Line
+	2650 3250 2800 3250
+Text HLabel 2650 3350 0    60   Output ~ 0
+pwm_08
+Wire Wire Line
+	2650 3350 2800 3350
 $EndSCHEMATC
