@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 05 Nov 2012 06:52:20 AM COT
+# EESchema Netlist Version 1.1 created  Mon 05 Nov 2012 10:43:04 PM EST
 (
  ( /50940AA1/5095ACC1 0603  C7 0.1uF {Lib=C}
   (    1 +3.3V )
@@ -6,10 +6,10 @@
  )
  ( /50940AA1/5095AEE2 0603  C8 2.2nF {Lib=C}
   (    1 GND )
-  (    2 N-000018 )
+  (    2 N-000026 )
  )
  ( /50940AA1/5095AFAF 0603  C9 0.1uF {Lib=C}
-  (    1 N-000029 )
+  (    1 N-000037 )
   (    2 GND )
  )
  ( /50940AA1/5095E27D QFN16P  U3 HMC5883L {Lib=HMC5883L}
@@ -62,7 +62,7 @@
   (    7 ? )
   (    8 ? )
   (    9 /IMU/SDO )
-  (   10 N-000029 )
+  (   10 N-000037 )
   (   11 ? )
   (   12 ? )
   (   13 +3.3V )
@@ -72,7 +72,7 @@
   (   17 ? )
   (   18 GND )
   (   19 ? )
-  (   20 N-000018 )
+  (   20 N-000026 )
   (   21 ? )
   (   22 ? )
   (   23 ? )
@@ -96,8 +96,8 @@
   (    2 ? )
   (    3 ? )
   (    4 ? )
-  (    5 N-000041 )
-  (    6 N-000040 )
+  (    5 N-000049 )
+  (    6 N-000048 )
   (    7 ? )
   (    8 ? )
   (    9 ? )
@@ -105,16 +105,16 @@
   (   11 ? )
   (   12 ? )
   (   13 ? )
-  (   14 ? )
-  (   15 ? )
-  (   16 ? )
-  (   17 ? )
+  (   14 /STM_CortexM4/pwm_01 )
+  (   15 /STM_CortexM4/pwm_02 )
+  (   16 /STM_CortexM4/pwm_03 )
+  (   17 /STM_CortexM4/pwm_04 )
   (   18 GND )
   (   19 +3.3V )
-  (   20 ? )
-  (   21 ? )
-  (   22 ? )
-  (   23 ? )
+  (   20 /STM_CortexM4/pwm_05 )
+  (   21 /STM_CortexM4/pwm_06 )
+  (   22 /STM_CortexM4/pwm_07 )
+  (   23 /STM_CortexM4/pwm_08 )
   (   24 ? )
   (   25 ? )
   (   26 ? )
@@ -170,18 +170,18 @@
   (    2 GND )
  )
  ( /50940D21/5095A15D ABM8G  X1 ABM8G {Lib=ABM8G}
-  (    1 N-000041 )
+  (    1 N-000049 )
   (    2 GND )
-  (    3 N-000040 )
+  (    3 N-000048 )
   (    4 GND )
  )
  ( /50940D21/5095A176 0603  C4 22pF {Lib=C}
   (    1 GND )
-  (    2 N-000041 )
+  (    2 N-000049 )
  )
  ( /50940D21/5095A1AA 0603  C5 22pF {Lib=C}
   (    1 GND )
-  (    2 N-000040 )
+  (    2 N-000048 )
  )
  ( /50940D21/5095A669 0603  C6 0.1uF {Lib=C}
   (    1 +3.3V )
@@ -202,6 +202,63 @@
  ( /50940D21/509705CE 0805  C14 10uF {Lib=C}
   (    1 +3.3V )
   (    2 GND )
+ )
+ ( /50987FB7/50986C2B $noname  K1 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_01 )
+ )
+ ( /50987FB7/50986C4C $noname  K2 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_02 )
+ )
+ ( /50987FB7/50986C52 $noname  K3 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_03 )
+ )
+ ( /50987FB7/50986C58 $noname  K4 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_04 )
+ )
+ ( /50987FB7/50986C60 $noname  K5 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_05 )
+ )
+ ( /50987FB7/50986C7C $noname  K6 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_06 )
+ )
+ ( /50987FB7/50986C82 $noname  K7 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_07 )
+ )
+ ( /50987FB7/50986C88 $noname  K8 CONN_3 {Lib=CONN_3}
+  (    1 GND )
+  (    2 +5V )
+  (    3 /STM_CortexM4/pwm_08 )
+ )
+ ( /50987FB7/509871AD $noname  C18 10uF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /50987FB7/509871BC $noname  C19 0.1uF {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /50987FB7/509883EF $noname  P1 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 +BATT )
+ )
+ ( /50987FB7/50988525 $noname  U5 AP1115A {Lib=AP1115A}
+  (    1 +BATT )
+  (    2 GND )
+  (    3 +3.3V )
  )
 )
 *
@@ -305,95 +362,156 @@ $component C14
  C?
  C1-1
 $endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/IMU/SDI" "SDI"
- U2 24
- U1 57
-Net 2 "/IMU/SDO" "SDO"
- U1 52
+Net 1 "/IMU/SDO" "SDO"
  U2 9
-Net 3 "/IMU/SCK" "SCK"
- U1 51
- U2 1
-Net 4 "/STM CortexM4/I2C1_SCL" "I2C1_SCL"
+ U1 52
+Net 2 "/STM CortexM4/I2C1_SCL" "I2C1_SCL"
  U4 6
- R1 2
- U3 1
  U1 58
-Net 5 "/STM CortexM4/I2C1_SDA" "I2C1_SDA"
+ U3 1
+ R1 2
+Net 3 "/STM CortexM4/I2C1_SDA" "I2C1_SDA"
+ R2 2
  U3 16
  U1 59
- R2 2
  U4 7
-Net 6 "+3.3V" "+3.3V"
+Net 4 "/STM CortexM4/pwm_08" "pwm_08"
+ K8 3
+ U1 23
+Net 5 "/STM CortexM4/pwm_07" "pwm_07"
+ U1 22
+ K7 3
+Net 6 "/STM CortexM4/pwm_06" "pwm_06"
+ K6 3
+ U1 21
+Net 7 "/STM CortexM4/pwm_05" "pwm_05"
+ U1 20
+ K5 3
+Net 8 "/STM CortexM4/pwm_04" "pwm_04"
+ U1 17
+ K4 3
+Net 9 "/STM CortexM4/pwm_03" "pwm_03"
+ U1 16
+ K3 3
+Net 10 "/STM CortexM4/pwm_02" "pwm_02"
+ U1 15
+ K2 3
+Net 11 "/STM CortexM4/pwm_01" "pwm_01"
+ U1 14
+ K1 3
+Net 12 "/IMU/SDI" "SDI"
+ U1 57
+ U2 24
+Net 13 "/IMU/SCK" "SCK"
+ U2 1
+ U1 51
+Net 14 "+3.3V" "+3.3V"
  C11 1
- C6 1
- C10 1
  U3 13
- C7 1
- C2 1
- C1 1
- C3 1
+ C10 1
+ C6 1
  U1 48
  U1 19
+ C1 1
+ U5 3
+ R1 1
+ R2 1
  C13 1
  C14 1
- R2 1
- R1 1
- U1 32
  U1 64
+ U1 32
+ C2 1
+ C3 1
+ C17 1
+ C7 1
+ C12 1
+ U2 13
  U4 4
  U4 3
- U2 13
- C12 1
- C15 1
  C16 1
+ C15 1
  U3 2
- C17 1
-Net 17 "GND" "GND"
- C14 2
- U4 1
- C12 2
+Net 25 "GND" "GND"
  C13 2
- C17 2
- C5 1
- X1 4
- X1 2
- U1 18
- U1 47
- C3 2
- C2 2
- C1 2
- U1 31
  U1 63
- C15 2
+ K8 1
+ U2 18
+ C14 2
+ K7 1
+ U5 2
+ P1 1
+ C3 2
+ X1 2
+ U1 47
  C16 2
+ U1 18
+ C15 2
+ C1 2
+ C19 2
+ C18 2
+ U1 31
+ C12 2
+ C17 2
+ C2 2
+ X1 4
+ C4 1
+ C5 1
  U3 9
  U3 11
- C9 2
- U2 18
- C10 2
- C8 1
  C11 2
- U2 PAD
+ U4 1
+ C10 2
  C6 2
+ C8 1
  C7 2
- C4 1
-Net 18 "" ""
+ K4 1
+ K5 1
+ C9 2
+ K6 1
+ U2 PAD
+ K1 1
+ K2 1
+ K3 1
+Net 26 "" ""
  C8 2
  U2 20
-Net 29 "" ""
- C9 1
+Net 37 "" ""
  U2 10
-Net 40 "" ""
+ C9 1
+Net 48 "" ""
  U1 6
- C5 2
  X1 3
-Net 41 "" ""
- U1 5
- C4 2
+ C5 2
+Net 49 "" ""
  X1 1
+ C4 2
+ U1 5
+Net 91 "+BATT" "+BATT"
+ P1 2
+ U5 1
+Net 92 "+5V" "+5V"
+ K5 2
+ K6 2
+ K4 2
+ K3 2
+ K7 2
+ K8 2
+ K2 2
+ K1 2
+ C19 1
+ C18 1
 }
 #End
