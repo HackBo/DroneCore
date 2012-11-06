@@ -1,4 +1,4 @@
-update=Mon 05 Nov 2012 06:43:38 AM COT
+update=Mon 05 Nov 2012 10:02:41 PM EST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -43,6 +43,7 @@ LibName13=stdpass
 LibName14=ABM8G
 LibName15=QFN16P
 LibName16=LCC8
+LibName17=ap1115a
 [eeschema]
 version=1
 LibDir=../components
@@ -88,3 +89,4 @@ LibName33=stm32f100vxx
 LibName34=hmc5883l
 LibName35=bmp085
 LibName36=mpu6000
+LibName37=ap1115a
