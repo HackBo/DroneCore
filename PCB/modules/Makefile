@@ -1,7 +1,8 @@
 MODULES= \
 	stdpass \
+	QFN16P \
 	QFN24P \
-	QFN16P
+	QFN40
 
 
 BUILDID=$(shell date +"%d/%m/%Y-%H:%M:%S")

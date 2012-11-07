@@ -1,0 +1,87 @@
+Cmp-Mod V01 Created by PcbNew date = Fri 26 Oct 2012 05:20:18 PM COT
+
+BeginCmp
+TimeStamp = /50860B20;
+Reference = B1;
+ValeurCmp = LFB182G45BG2D280;
+IdModule  = BALUN_MURATA;
+EndCmp
+
+BeginCmp
+TimeStamp = /50859487;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085A6D2;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085A6D8;
+Reference = C3;
+ValeurCmp = 0.1uF;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085A6DE;
+Reference = C4;
+ValeurCmp = 0.1uF;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085A6F0;
+Reference = C5;
+ValeurCmp = 0.1uF;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085A6E4;
+Reference = C6;
+ValeurCmp = 0.1uF;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085A6EA;
+Reference = C7;
+ValeurCmp = 0.1uF;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085AB80;
+Reference = R1;
+ValeurCmp = 56k;
+IdModule  = 0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085AE1B;
+Reference = U1;
+ValeurCmp = CC2541;
+IdModule  = QFN40;
+EndCmp
+
+BeginCmp
+TimeStamp = /5085BDF7;
+Reference = X1;
+ValeurCmp = 32768Hz;
+IdModule  = ABS05;
+EndCmp
+
+BeginCmp
+TimeStamp = /50861E67;
+Reference = X2;
+ValeurCmp = 32MHz;
+IdModule  = CX2016DB;
+EndCmp
+
+EndListe
