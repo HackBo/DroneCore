@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 05 Nov 2012 10:11:56 PM EST
+EESchema Schematic File Version 2  date Tue 06 Nov 2012 07:35:26 PM EST
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,7 +43,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
 Title ""
-Date "6 nov 2012"
+Date "7 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -80,6 +80,7 @@ F11 "pwm_05" O L 3400 2950 60
 F12 "pwm_06" O L 3400 2850 60 
 F13 "pwm_07" O L 3400 2750 60 
 F14 "pwm_08" O L 3400 2650 60 
+F15 "RESET" I L 3400 3650 60 
 $EndSheet
 Wire Wire Line
 	5000 2650 5300 2650
@@ -104,6 +105,7 @@ F6 "servo_04" I R 3200 3050 60
 F7 "servo_03" I R 3200 3150 60 
 F8 "servo_02" I R 3200 3250 60 
 F9 "servo_01" I R 3200 3350 60 
+F10 "RESET" O R 3200 3650 60 
 $EndSheet
 Wire Wire Line
 	3200 2650 3400 2650
@@ -121,4 +123,6 @@ Wire Wire Line
 	3200 3250 3400 3250
 Wire Wire Line
 	3400 3350 3200 3350
+Wire Wire Line
+	3200 3650 3400 3650
 $EndSCHEMATC
