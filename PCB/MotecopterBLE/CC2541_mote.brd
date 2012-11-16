@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date Thu 15 Nov 2012 09:37:36 PM COT
+PCBNEW-BOARD Version 2 date Thu 15 Nov 2012 09:42:37 PM COT
 
 # Created by Pcbnew(2012-10-31 BZR 3793)-testing
 
@@ -69,7 +69,7 @@ PadDrill 0
 Pad2MaskClearance 0.09906
 AuxiliaryAxisOrg 0 0
 VisibleElements 7FFF7FFF
-PcbPlotParams (pcbplotparams (layerselection 301760513) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers/))
+PcbPlotParams (pcbplotparams (layerselection 301760513) (usegerberextensions true) (excludeedgelayer true) (linewidth 100) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory gerbers/))
 $EndSETUP
 
 $EQUIPOT
@@ -2557,7 +2557,38 @@ $POLYSCORNERS
 153.0401 87.532626 0 0
 153.029959 87.48141 0 0
 153.685708 87.48141 1 0
-162.89655 97.88271 0 0
+161.187969 91.59113 0 0
+161.03213 91.675392 0 0
+161.015173 91.686829 0 0
+160.997999 91.698068 0 0
+160.995554 91.700062 0 0
+160.613594 92.016047 0 0
+160.599158 92.030583 0 0
+160.584517 92.044921 0 0
+160.58251 92.047347 0 0
+160.582506 92.047352 0 0
+160.582502 92.047357 0 0
+160.269196 92.431508 0 0
+160.257838 92.448601 0 0
+160.246282 92.46548 0 0
+160.244788 92.468243 0 0
+160.24478 92.468256 0 0
+160.244774 92.468268 0 0
+160.012054 92.905952 0 0
+160.004236 92.924917 0 0
+159.996175 92.943728 0 0
+159.995241 92.946743 0 0
+159.851962 93.421306 0 0
+159.847975 93.44144 0 0
+159.843723 93.461447 0 0
+159.843393 93.464586 0 0
+159.795019 93.95794 0 0
+159.795019 93.957941 0 0
+159.700433 94.922595 0 0
+159.426688 95.82928 0 0
+158.982047 96.665527 0 0
+158.383444 97.399487 0 0
+157.79933 97.88271 0 0
 157.089717 97.88271 0 0
 157.089717 96.373888 0 0
 157.067219 96.233465 0 0
@@ -3083,9 +3114,7 @@ $POLYSCORNERS
 155.16987 87.48141 0 0
 155.16987 91.59113 0 0
 156.29636 91.59113 0 0
-162.891536 91.59113 0 0
-162.89655 97.276953 0 0
-162.89655 97.88271 1 0
+161.187969 91.59113 1 0
 $endPOLYSCORNERS
 $endCZONE_OUTLINE
 $CZONE_OUTLINE
@@ -3266,8 +3295,9 @@ $POLYSCORNERS
 157.287533 92.018602 0 0
 157.287788 92.017995 0 0
 157.740068 93.19895 1 0
-158.59379 97.95891 0 0
-158.296767 97.95891 0 0
+158.59379 97.141578 0 0
+158.383444 97.399487 0 0
+158.296767 97.471192 0 0
 158.296767 96.020738 0 0
 158.29661 95.772287 0 0
 158.240413 95.71609 0 0
@@ -3283,7 +3313,8 @@ $POLYSCORNERS
 158.287596 96.108003 0 0
 158.29646 96.06482 0 0
 158.296767 96.020738 0 0
-158.296767 97.95891 0 0
+158.296767 97.471192 0 0
+157.70722 97.95891 0 0
 157.54731 97.95891 0 0
 157.54731 96.209803 0 0
 157.54731 95.71609 0 0
@@ -4088,7 +4119,7 @@ $POLYSCORNERS
 158.533348 95.716663 0 0
 158.573987 95.733746 0 0
 158.59379 95.73781 0 0
-158.59379 97.95891 1 0
+158.59379 97.141578 1 0
 $endPOLYSCORNERS
 $endCZONE_OUTLINE
 $EndBOARD
